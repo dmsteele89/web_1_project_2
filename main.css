@@ -37,6 +37,7 @@ h1 {
     background-image: url("images/tolkien1.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     width: 76%;
     margin: 25px auto;
     justify-content: space-between;
@@ -307,8 +308,9 @@ p {
 .featured-student {
     display: flex;
     border: solid white 10px;
-    background-image: url("images/tolkien1.jpg");
+    background-image: url("images/Final\ Hours.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     width: 48.5vw;
     margin-left: 11vw;
@@ -338,7 +340,7 @@ p {
     justify-content: flex-end;
     float: right;  
     margin-right: 11vw;
-    margin-top: -75vh;
+    margin-top: -600px;
     width: 23.5vw;  
 }
 .contact {
@@ -346,18 +348,20 @@ p {
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-around;
-    margin-left: 6%;
+    margin-right: 20px;
+    width: 70%;
 }
 .contact p {
     line-height: .01;
     font-size: .9em;
 }
 .prof-pic {
-    height: 110px;
-    width: 110px;
-    background-color: black;
     margin: auto;
     margin-right: 5px;
+}
+.prof-pic img {
+    height: 110px;
+    width: 110px;
 }
 .media-links img{
     width: 30px;
@@ -373,4 +377,7 @@ p {
     margin-top: -55vh;
     width: 23.5vw;
     height: 54.2vh;
+}
+.about-title {
+    font-size: 1.2em;
 }
